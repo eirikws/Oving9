@@ -1,0 +1,5 @@
+P1=(p1wa->p1wb->p1sb->p1sa->P1).
+P2=(p2wb->p2wa->p2sa->p2sb->P2).
+A=(p1wa->p1sa->A | p2wa->p2sa->A).
+B=(p1wb->p1wb->B | p2wb->p2sb->B).
+||SYS=(P1||P2||A||B).

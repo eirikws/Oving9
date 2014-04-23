@@ -1,0 +1,5 @@
+P=(eat -> r.wf -> l.wf ->eating ->r.sf -> l.sf ->think -> P).
+
+F = (wf -> sf -> F).
+
+||SYS(N=3)=(p[0..N-1]:P|| f[0..N-1]:F)/{p[i:0..N-1].l/f[i],p[i:0..N-1].r/f[(i+1)%N]}.

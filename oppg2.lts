@@ -1,0 +1,10 @@
+P1=(p1wb->p1wa->p1sa->P1 | p1wb->p1sb->P1).
+P2=(p2wa->p2sa->P2).
+
+A=(p1wa->p1sa->A | p2wa->p2sa->A).
+B=(p1wb->p1sb->B).
+
+progress P3={p2wa,p2sa}
+
+||SYS=(P1||P2||A||B).
+
